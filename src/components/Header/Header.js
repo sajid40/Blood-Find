@@ -14,7 +14,7 @@ const Header = () => {
                 <Link to="/Blddonarlist">Blood Donar List</Link>
                 <Link to="/Contact">Contact</Link>
                 <Link to="/About">About us</Link>
-                
+                <Link to="/Registration">Registration</Link>
             </nav>
         </div>
     );

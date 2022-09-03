@@ -1,6 +1,7 @@
 import React from 'react';
+import './Registration.css';
 
-const reg = () => {
+const Registration = () => {
     return (
         <div>
             <div class="container">
@@ -76,4 +77,4 @@ const reg = () => {
     );
 };
 
-export default reg;
+export default Registration;

@@ -8,6 +8,8 @@ import Blddonarlist from './components/Blddonarlist/Blddonarlist';
 import Newsfeed from './components/Newsfeed/Newsfeed';
 import Contact from './components/Contact/Contact';
 import About from './components/About/About';
+import Registration from './components/Registration/Registration';
+
 
 function App() {
   return (
@@ -20,6 +22,7 @@ function App() {
       <Route path= "/Blddonarlist" element={<Blddonarlist></Blddonarlist>}></Route>
       <Route path= "/Contact" element={<Contact></Contact>}></Route>
       <Route path= "/About" element={<About></About>}></Route>
+      <Route path= "/Registration" element={<Registration></Registration>}></Route>
 
       </Routes>
     </div>
